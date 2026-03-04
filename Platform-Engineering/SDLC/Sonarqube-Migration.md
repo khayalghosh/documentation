@@ -1,5 +1,5 @@
 ---
-title: SonarQube Migration (EC2 > EKS + Self-hosted DB > AWS RDS Postgres)
+title: SonarQube Migration (EC2 -> EKS + Self-hosted DB -> AWS RDS Postgres)
 owner: Platform Engineering
 last_updated: 2026-03-04
 ---
@@ -22,8 +22,9 @@ This document describes a practical, command-driven migration of **SonarQube**:
 
 ## Checklist (requirements coverage)
 
-- [x] Migration steps for **EC2 > EKS**
-- [x] Migration steps for **self-hosted SQL > AWS RDS Postgres**
+- [x] Migration steps for **EC2 > EKS**
+- [x] Migration steps for **EC2 -> EKS**
+- [x] Migration steps for **self-hosted SQL -> AWS RDS Postgres**
 - [x] Highlight **schema migration** using a **SonarDB copy tool** workflow
 - [x] Provide **step-by-step commands**
 
